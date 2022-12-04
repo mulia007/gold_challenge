@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import "./pages.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const SearchCar = () => {
   const [carData, setCarData] = useState([]);
@@ -39,6 +40,7 @@ const SearchCar = () => {
             ))
           : null}
       </div>
+      <Footer />
     </div>
   );
 };
