@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
@@ -18,7 +19,7 @@ const Welcome = () => {
                 data-bs-toggle="modal"
                 data-bs-target="#exampleModal"
               >
-                Mulai Sewa Mobil
+                <Link to="/carimobil">Mulai Sewa Mobil</Link>
               </button>
             </div>
             <div class="col p-0 text-end">
