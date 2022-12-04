@@ -5,7 +5,6 @@ import Welcome from "../components/Welcome";
 import BestCar from "../components/BestCar";
 import WhyUs from "../components/WhyUs";
 import Testimonial from "../components/Testimonial";
-import Carousel from "../components/Carousel";
 import Banner from "../components/Banner";
 
 const HomePage = () => {
@@ -16,7 +15,6 @@ const HomePage = () => {
       <BestCar />
       <WhyUs />
       <Testimonial />
-      <Carousel />
       <Banner />
       <Faq />
       <Footer />

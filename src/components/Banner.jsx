@@ -1,8 +1,25 @@
+import * as React from "react";
+
 const Banner = () => {
   return (
-    <div>
-      <h1>ini Banner</h1>
-    </div>
+    <section id="sewa">
+      <div className="container sewa">
+        <div className="card text-center">
+          <div className="card-body">
+            <h2 className="card-title">Sewa Mobil di (Lokasimu) Sekarang!</h2>
+            <p style={{ marginTop: "25px", color: "white", fontWeight: 640 }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br />
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>{" "}
+            <br />
+            <br />
+            <button type="button" className="btn-sewa" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Mulai Sewa Mobil
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -2,6 +2,9 @@ body {
   min-height: 2520px;
   font-family: Arial, Helvetica, sans-serif;
 }
+.navbar {
+  background-color: #f1f3ff;
+}
 .navbar .navbar-brand {
   font-size: 26px;
   font-weight: 660;
@@ -26,6 +29,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 600;
+}
+.ourService .container {
+  margin-top: 100px;
 }
 .ourService .display-6 {
   font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +70,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
+
 .whyUs .card {
   padding-left: 20px;
   padding-right: 20px;
