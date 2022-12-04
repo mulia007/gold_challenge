@@ -1,0 +1,121 @@
+body {
+  min-height: 2520px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .navbar-brand {
+  font-size: 26px;
+  font-weight: 660;
+}
+.navbar-nav {
+  font-size: 18px;
+  margin-right: 160px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  padding-bottom: 0px;
+  background-color: #f1f3ff;
+}
+.jumbotron .display-4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.2;
+}
+.jumbotron .lead {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.ourService .display-6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.ourService .lead {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.ourService .list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-sewa {
+  background-color: #5cb85f;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+  font-weight: 640;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.btn-sewa:hover {
+  background-color: #5cb85f;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: rgb(211, 211, 211);
+  font-weight: 640;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.whyUs .card {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn-repeat {
+  background-color: #5cb85f;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+  font-weight: 640;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  margin-bottom: 100 px;
+}
+.btn-repeat:hover {
+  background-color: #5cb85f;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: rgb(211, 211, 211);
+  font-weight: 640;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.sewa .card {
+  min-width: 80%;
+  min-height: 326px;
+}
+.sewa .card .card-body {
+  background-color: #0d28a6;
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.sewa .card .card-body .card-title {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 640;
+}
+.accordion-header {
+  border: 2px;
+  border-color: black;
+  border-radius: 5px;
+}
+.accordion-item {
+  margin-bottom: 15px;
+}
+.accordion .accordion-item .accordion-header .accordion-button {
+  background-color: #fff0;
+}

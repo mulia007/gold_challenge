@@ -1,0 +1,13 @@
+.car-card {
+  width: 383px;
+  margin: 20px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
