@@ -14,13 +14,7 @@ const Banner = () => {
             </p>{" "}
             <br />
             <br />
-            <button
-              type="button"
-              className="btn-sewa"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            >
-              Mulai Sewa Mobil
+            <button type="button" className="btn-sewa" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <Link to="/carimobil">Mulai Sewa Mobil</Link>
             </button>
           </div>
