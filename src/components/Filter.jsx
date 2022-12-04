@@ -1,4 +1,6 @@
-const Filter = () => {
+import React from "react";
+
+const Filter = (props) => {
   return (
     <div
       className="card position-relative top-100 start-50 translate-middle mt-1"
@@ -16,6 +18,7 @@ const Filter = () => {
                   Nama Mobil
                 </label>
                 <input
+                  onChange={props.handleChangeName}
                   type="text"
                   placeholder="Ketik Nama/tipe mobil"
                   className="form-control"
@@ -32,6 +35,10 @@ const Filter = () => {
                   id="kategoriMobil"
                   className="form-select"
                   aria-label="Default select example"
+                  value={props.fCategory}
+                  onChange={props.handleChangeCategory}
+                  displayEmpty
+                  inputProps={{ "aria-label": "Without label" }}
                 >
                   <option selected>Masukkan Kapasitas Mobil</option>
                   <option value="2-4 Orang">2-4 Orang</option>
@@ -45,7 +52,15 @@ const Filter = () => {
                 <label htmlFor="hargaMobil" className="form-label">
                   Harga
                 </label>
-                <select id="hargaMobil" className="form-select" aria-label="Default select example">
+                <select
+                  id="hargaMobil"
+                  className="form-select"
+                  aria-label="Default select example"
+                  value={props.fPrice}
+                  onChange={props.handleChangePrice}
+                  displayEmpty
+                  inputProps={{ "aria-label": "Without label" }}
+                >
                   <option selected>Masukkan Harg a Sewa per Hari</option>
                   <option value="< 400.000">&lt; Rp.400.000</option>
                   <option value="400.000 - 600.000">Rp.400.000 - Rp.600.000</option>
@@ -62,6 +77,10 @@ const Filter = () => {
                   id="statusMobil"
                   className="form-select"
                   aria-label="Default select example"
+                  value={props.fStatus}
+                  onChange={props.handleChangeStatus}
+                  displayEmpty
+                  inputProps={{ "aria-label": "Without label" }}
                 >
                   <option selected>Status Mobil</option>
                   <option value="Disewa">Disewa</option>
@@ -70,7 +89,7 @@ const Filter = () => {
               </div>
             </div>
             <div className="col-2">
-              <button type="button" className="btn btn-primary mt-4">
+              <button type="button" className="btn btn-primary mt-4" onClick={props.handleFilter}>
                 Save changes
               </button>
             </div>

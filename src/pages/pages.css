@@ -1,13 +1,15 @@
-.car-card {
-  width: 383px;
-  margin: 20px;
-}
-
-.img-container img {
-  width: 100%;
-}
-
-.card-wrapper {
+.filter-section {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.btn-sewa {
+  background-color: #5cb85f;
+  padding: 10px 35px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+  font-weight: 640;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  width: 100%;
 }

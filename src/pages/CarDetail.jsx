@@ -4,6 +4,7 @@ import axios from "axios";
 import { useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import "./pages.css";
 
 const CarDetail = () => {
   const { id } = useParams();
@@ -32,7 +33,6 @@ const CarDetail = () => {
       ) : (
         <h1></h1>
       )}
-
       <Footer />
     </div>
   );

@@ -5,7 +5,7 @@ import SearchCar from "./pages/SearchCar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -16,6 +16,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

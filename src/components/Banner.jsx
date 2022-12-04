@@ -20,7 +20,6 @@ const Banner = () => {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
-              Mulai Sewa Mobil
               <Link to="/carimobil">Mulai Sewa Mobil</Link>
             </button>
           </div>

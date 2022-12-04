@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
 
-const Welcome = () => {
+const Welcome = (props) => {
   return (
     <div>
       <section class="jumbotron">
@@ -13,14 +13,18 @@ const Welcome = () => {
                 Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan
                 harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
               </p>
-              <button
-                type="button"
-                class="btn-sewa"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                <Link to="/carimobil">Mulai Sewa Mobil</Link>
-              </button>
+              {props.isButtonShow ? (
+                <div>
+                  <button
+                    type="button"
+                    class="btn-sewa"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                  >
+                    <Link to="/carimobil">Mulai Sewa Mobil</Link>
+                  </button>
+                </div>
+              ) : null}
             </div>
             <div class="col p-0 text-end">
               <img src="img/CAR.png" alt="car" class="w-100" />

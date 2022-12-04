@@ -31,10 +31,30 @@ const Footer = () => {
               Connect with us <br />
               <br />
               <img src="img/FB.PNG" width={30} height={30} style={{ marginBottom: "20px" }} />
-              <img src="img/IG.PNG" width={30} height={30} style={{ marginBottom: "20px", marginLeft: "12px" }} />
-              <img src="img/TW.PNG" width={30} height={30} style={{ marginBottom: "20px", marginLeft: "12px" }} />
-              <img src="img/MAIL.PNG" width={30} height={30} style={{ marginBottom: "20px", marginLeft: "12px" }} />
-              <img src="img/TC.PNG" width={30} height={30} style={{ marginBottom: "20px", marginLeft: "12px" }} />
+              <img
+                src="img/IG.PNG"
+                width={30}
+                height={30}
+                style={{ marginBottom: "20px", marginLeft: "12px" }}
+              />
+              <img
+                src="img/TW.PNG"
+                width={30}
+                height={30}
+                style={{ marginBottom: "20px", marginLeft: "12px" }}
+              />
+              <img
+                src="img/MAIL.PNG"
+                width={30}
+                height={30}
+                style={{ marginBottom: "20px", marginLeft: "12px" }}
+              />
+              <img
+                src="img/TC.PNG"
+                width={30}
+                height={30}
+                style={{ marginBottom: "20px", marginLeft: "12px" }}
+              />
             </p>
           </div>
           <div className="col-lg-3" style={{ fontWeight: 700 }}>
