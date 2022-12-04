@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import "./pages.css";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import Welcome2 from "../components/Welcome2";
+import Filter from "../components/Filter";
 
 const SearchCar = () => {
   const [carData, setCarData] = useState([]);
@@ -23,6 +25,8 @@ const SearchCar = () => {
   return (
     <div>
       <Navbar />
+      <Welcome2 />
+      <Filter />
       <div className="card-wrapper">
         {!!carData.length
           ? carData.map((item) => (
