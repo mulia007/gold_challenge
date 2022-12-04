@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -20,6 +21,7 @@ const Banner = () => {
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
+              Mulai Sewa Mobil
               <Link to="/carimobil">Mulai Sewa Mobil</Link>
             </button>
           </div>
