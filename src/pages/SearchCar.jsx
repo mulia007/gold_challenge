@@ -58,7 +58,8 @@ const SearchCar = () => {
       <Navbar />
       <Welcome isButtonShow={false} />
       <Filter
-        disable={true}
+        disable={false}
+        isButton={true}
         handleChangeName={handleChangeName}
         handleChangeCategory={handleChangeCategory}
         handleChangePrice={handleChangePrice}
@@ -70,12 +71,12 @@ const SearchCar = () => {
       />
 
       <div className="">
-        {!!carData.length
-          ? carData.map((item) => (
-              <section id="carList">
-                <div className="container">
-                  <div className="row flex-column flex-md-row align-items-center">
-                    <div className="col-lg-5">
+        <section id="carList">
+          <div className="container">
+            <div className="row align-items-center">
+              {!!carData.length
+                ? carData.map((item) => (
+                    <div className="col-lg-4">
                       <div className="card h-100">
                         <div className="card-body">
                           <img
@@ -107,11 +108,11 @@ const SearchCar = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </section>
-            ))
-          : null}
+                  ))
+                : null}
+            </div>
+          </div>
+        </section>
       </div>
       <Footer />
     </div>

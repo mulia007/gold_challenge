@@ -18,6 +18,7 @@ const Filter = (props) => {
                   Nama Mobil
                 </label>
                 <input
+                  disabled={props.disabled}
                   onChange={props.handleChangeName}
                   type="text"
                   placeholder="Ketik Nama/tipe mobil"
@@ -32,6 +33,7 @@ const Filter = (props) => {
                   Kategori
                 </label>
                 <select
+                  disabled={props.disabled}
                   id="kategoriMobil"
                   className="form-select"
                   aria-label="Default select example"
@@ -53,6 +55,7 @@ const Filter = (props) => {
                   Harga
                 </label>
                 <select
+                  disabled={props.disabled}
                   id="hargaMobil"
                   className="form-select"
                   aria-label="Default select example"
@@ -74,6 +77,7 @@ const Filter = (props) => {
                   Status
                 </label>
                 <select
+                  disabled={props.disabled}
                   id="statusMobil"
                   className="form-select"
                   aria-label="Default select example"
@@ -88,11 +92,13 @@ const Filter = (props) => {
                 </select>
               </div>
             </div>
-            <div className="col-2">
-              <button type="button" className="btn btn-primary mt-4" onClick={props.handleFilter}>
-                Save changes
-              </button>
-            </div>
+            {props.isButton === true && (
+              <div className="col-2">
+                <button type="button" className="btn btn-primary mt-4" onClick={props.handleFilter}>
+                  Save changes
+                </button>
+              </div>
+            )}
           </div>
         </form>
       </div>
