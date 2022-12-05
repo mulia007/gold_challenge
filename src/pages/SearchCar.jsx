@@ -32,7 +32,7 @@ const SearchCar = () => {
   const handleFilter = (e) => {
     axios
       .get(
-        `https://bootcamp-rent-cars.herokuapp.com/customer/v2/car?name=${fName}&category=${fCategory}&isRented=${fStatus}&minPrice=${fPrice}`
+        `https://bootcamp-rent-cars.herokuapp.com/customer/v2/car?name=${fName}&category=${fCategory}&isRented=${fStatus}&minPrice=${fPrice}&maxPrice=${fPrice}`
       )
       .then((res) => {
         console.log(res);
@@ -98,8 +98,6 @@ const SearchCar = () => {
                             <button
                               type="button"
                               className="btn-sewa"
-                              data-bs-toggle="modal"
-                              data-bs-target="#exampleModal"
                               style={{ marginTop: "20px" }}
                             >
                               Pilih Mobil

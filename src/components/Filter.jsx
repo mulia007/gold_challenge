@@ -43,9 +43,10 @@ const Filter = (props) => {
                   inputProps={{ "aria-label": "Without label" }}
                 >
                   <option selected>Masukkan Kapasitas Mobil</option>
-                  <option value="2-4 Orang">2-4 Orang</option>
-                  <option value="4-6 Orang">4-6 Orang</option>
-                  <option value="6-8 Orang">6-8 Orang</option>
+                  <option value="small">2-4 Orang</option>
+                  <option value="medium">4-6 Orang(medium)</option>
+                  <option value="Medium">4-6 Orang(Medium)</option>
+                  <option value="large">6-8 Orang</option>
                 </select>
               </div>
             </div>
@@ -65,9 +66,9 @@ const Filter = (props) => {
                   inputProps={{ "aria-label": "Without label" }}
                 >
                   <option selected>Masukkan Harg a Sewa per Hari</option>
-                  <option value="< 400.000">&lt; Rp.400.000</option>
-                  <option value="400.000 - 600.000">Rp.400.000 - Rp.600.000</option>
-                  <option value="> 600.000">&gt; Rp.600.000</option>
+                  <option value="cheap">&lt; Rp.400.000</option>
+                  <option value="Medium">Rp.400.000 - Rp.600.000</option>
+                  <option value="expensive">&gt; Rp.600.000</option>
                 </select>
               </div>
             </div>
@@ -87,8 +88,8 @@ const Filter = (props) => {
                   inputProps={{ "aria-label": "Without label" }}
                 >
                   <option selected>Status Mobil</option>
-                  <option value="Disewa">Disewa</option>
-                  <option value="Belum Disewa">Belum Disewa</option>
+                  <option value="true">Disewa</option>
+                  <option value="false">Belum Disewa</option>
                 </select>
               </div>
             </div>
