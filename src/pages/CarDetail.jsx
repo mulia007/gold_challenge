@@ -94,6 +94,9 @@ const CarDetail = () => {
                           alignItems: "center",
                         }}
                       />
+                      <div class="">
+                        <h6>{car.name}</h6>
+                      </div>
                       <p>
                         <img src={user} />
                         {car.category === "Medium" && "4 - 6 Orang"}
@@ -106,9 +109,7 @@ const CarDetail = () => {
                     <h1></h1>
                   )}
                 </div>
-                <div class="">
-                  <h6>{car.name}</h6>
-                </div>
+
                 <div class="row">
                   <div class="col px-lg-5 py-lg-5">
                     <h6 class="fw-bold">Total</h6>

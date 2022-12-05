@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Nav } from "react-bootstrap";
 import FB from "../assets/img/FB.PNG";
 import IG from "../assets/img/IG.PNG";
 import TW from "../assets/img/TW.PNG";
@@ -23,13 +24,14 @@ const Footer = () => {
           </div>
           <div className="col-lg-3">
             <p className="footer">
-              Our Services <br />
+              <Nav.Link href="#ourService">Our Services</Nav.Link>
               <br />
-              Why Us <br />
+              <Nav.Link href="#whyUs">Why Us</Nav.Link>
               <br />
-              Testimonial <br />
+              <Nav.Link href="#testimonial">Testimonial</Nav.Link>
               <br />
-              FAQ
+              <Nav.Link href="#faq">FAQ</Nav.Link>
+              <br />
             </p>
           </div>
           <div className="col-lg-3" style={{ fontWeight: 700 }}>
@@ -67,7 +69,9 @@ const Footer = () => {
             <p className="footer">
               Copyright Binar 2022 <br />
               <br />
-              <img src={LG} alt="" />
+              <a href="/">
+                <img src={LG} alt="" />
+              </a>
             </p>
           </div>
         </div>
