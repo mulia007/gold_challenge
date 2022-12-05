@@ -2,11 +2,17 @@ import * as React from "react";
 
 const BestCar = () => {
   return (
-    <section className="ourService">
+    <section id="ourService" className="ourService">
       <div className="container" style={{ marginTop: "70px" }}>
         <div className="row">
           <div className="col-lg-6 col-xs-12">
-            <img src="img/LAPTOP.png" style={{ alignItems: "center" }} className="img-fluid" width={374} height={562} />
+            <img
+              src="img/LAPTOP.png"
+              style={{ alignItems: "center" }}
+              className="img-fluid"
+              width={374}
+              height={562}
+            />
           </div>
           <div className="col-lg-6 col-xs-12">
             <h1 className="display-6">
@@ -14,7 +20,9 @@ const BestCar = () => {
               (Lokasimu)
             </h1>
             <p className="lead">
-              Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting, dll.
+              Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih murah
+              dibandingkan yang lain, kondisi mobil baru, serta kualitas pelayanan terbaik untuk
+              perjalanan wisata, bisnis, wedding, meeting, dll.
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />

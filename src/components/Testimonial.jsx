@@ -7,7 +7,7 @@ const Testimonial = () => {
     <Container>
       <Row>
         <Col id="testimonial">
-          <div className="testimoni">
+          <div id="testimonial" className="testimoni">
             <h1 className="testimoni-1">Testimonial</h1>
             <h4 className="testimoni-2">Berbagai review positif dari para pelanggan kami</h4>
           </div>

@@ -1,12 +1,13 @@
 import * as React from "react";
+import logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-md">
         <div class="container-md">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="Logo" class="d-inline-block align-text-top" />
+          <a class="navbar-brand" href="/">
+            <img src={logo} alt="Logo" class="d-inline-block align-text-top" />
           </a>
           <button
             class="navbar-toggler"
@@ -32,12 +33,12 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#testimony">
+                <a class="nav-link active" href="#testimonial">
                   Testimonial
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#question">
+                <a class="nav-link active" href="#faq">
                   FAQ
                 </a>
               </li>

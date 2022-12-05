@@ -6,8 +6,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./pages.css";
 import Filter from "../components/Filter";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+import "../img/users.png";
+import user from "../assets/img/users.png";
 
 const CarDetail = () => {
   const { id } = useParams();
@@ -26,6 +26,11 @@ const CarDetail = () => {
   return (
     <div>
       <Navbar />
+      <div>
+        <section class="jumbotron" style={{ height: "200px" }}>
+          <div class="container h-100"></div>
+        </section>
+      </div>
       <br />
       <br />
       <br />
@@ -90,7 +95,7 @@ const CarDetail = () => {
                         }}
                       />
                       <p>
-                        <img src="../assets/users.png" />
+                        <img src={user} />
                         {car.category === "Medium" && "4 - 6 Orang"}
                         {car.category === "small" && "2 - 4 Orang"}
                         {car.category === "medium" && "4 - 6 Orang"}
@@ -103,7 +108,6 @@ const CarDetail = () => {
                 </div>
                 <div class="">
                   <h6>{car.name}</h6>
-                  <i class=""></i>
                 </div>
                 <div class="row">
                   <div class="col px-lg-5 py-lg-5">
