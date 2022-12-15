@@ -1,53 +1,54 @@
-import * as React from "react";
-import logo from "../assets/img/logo.png";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
-const Navbar = () => {
+const NewNavbar = () => {
   return (
-    <div>
-      <nav class="navbar navbar-expand-md">
-        <div class="container-md">
-          <a class="navbar-brand" href="/">
-            <img src={logo} alt="Logo" class="d-inline-block align-text-top" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <>
+      <Navbar key={"sm"} bg="light" expand={"sm"} className="mb-3">
+        <Container fluid>
+          <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+          <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${"sm"}`} />
+          <Navbar.Offcanvas
+            id={`offcanvasNavbar-expand-${"sm"}`}
+            aria-labelledby={`offcanvasNavbarLabel-expand-${"sm"}`}
+            placement="end"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#ourService">
-                  Our Services
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#whyUs">
-                  Why Us
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#testimonial">
-                  Testimonial
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#faq">
-                  FAQ
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+            <Offcanvas.Header closeButton>
+              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${"sm"}`}>
+                Offcanvas
+              </Offcanvas.Title>
+            </Offcanvas.Header>
+            <Offcanvas.Body>
+              <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav.Link href="#action1">Home</Nav.Link>
+                <Nav.Link href="#action2">Link</Nav.Link>
+                <NavDropdown title="Dropdown" id={`offcanvasNavbarDropdown-expand-${"sm"}`}>
+                  <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+                  <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+              <Form className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button variant="outline-success">Search</Button>
+              </Form>
+            </Offcanvas.Body>
+          </Navbar.Offcanvas>
+        </Container>
+      </Navbar>
+    </>
   );
 };
 
-export default Navbar;
+export default NewNavbar;
