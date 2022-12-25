@@ -32,7 +32,8 @@ const WhyUs = () => {
               <div className="card-body">
                 <img src="img/clock.png" width={30} height={30} />
                 <h5 className="card-title">Layanan 24 Jam</h5>
-                Siap melayani kebutuhan Anda selama 24 jam nonstop. kami juga tersedia di hari minggu
+                Siap melayani kebutuhan Anda selama 24 jam nonstop. kami juga tersedia di hari
+                weekend dan hari minggu
               </div>
             </div>
           </div>
@@ -41,7 +42,7 @@ const WhyUs = () => {
               <div className="card-body">
                 <img src="img/medal.png" width={30} height={30} />
                 <h5 className="card-title">Sopir Profesional</h5>
-                Sopir yang Profesional, berpengalaman, jujur, ramah dan selalu tepat waktu
+                Sopir yang Profesional, berpengalaman, jujur, ramah dan selalu datang tepat waktu
               </div>
             </div>
           </div>
