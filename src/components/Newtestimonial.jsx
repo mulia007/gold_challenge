@@ -15,7 +15,7 @@ const Testimonials = () => {
       <div className="row my-5 mx-0 px-0">
         <div className="col-lg-12 text-center mb-5">
           <h1>Testimonial</h1>
-          <h5>Berbagai Review Positif dari Para Pelanggan Kami</h5>
+          <h5>Berbagai Testimoni Positif dari Para Pelanggan Kami</h5>
         </div>
         <div className="col-lg-12 mx-0 px-0">
           <OwlCarousel
