@@ -30,15 +30,15 @@ const BestCar = () => {
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
-              &nbsp;&nbsp;Sewa mobil lepas kunci di Jakarta 24 Jam
+              &nbsp;&nbsp;Sewa mobil lepas kunci di Jakarta selama 24 Jam
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
-              &nbsp;&nbsp;Sewa mobil jangka panjang Bulanan
+              &nbsp;&nbsp;Sewa mobil jangka panjang bisa Bulanan
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
-              &nbsp;&nbsp;Gratis Antar - Jemput Mobil di Bandara
+              &nbsp;&nbsp;Gratis Antar - Jemput Mobil langsung ke Bandara
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
