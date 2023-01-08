@@ -12,6 +12,9 @@ const Welcome = (props) => {
               <p className="lead">
                 Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan
                 harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi enim beatae excepturi
+                sunt sint neque nesciunt tempora odio vero, sit, minus reiciendis dolor. Iure
+                laboriosam ipsa tempora, ipsam aperiam ratione.
               </p>
               {props.isButtonShow ? (
                 <div>
