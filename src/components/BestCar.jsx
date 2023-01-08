@@ -26,7 +26,7 @@ const BestCar = () => {
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
-              &nbsp;&nbsp;Sewa mobil dengan supir di Jakarta 12 Jam
+              &nbsp;&nbsp;Sewa mobil selama 12 Jam
             </p>
             <p className="list">
               <img src="img/checklist.png" width={20} height={20} />
