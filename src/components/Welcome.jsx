@@ -18,7 +18,11 @@ const Welcome = (props) => {
                 consectetur adipisicing elit. Reiciendis quo, eos optio aspernatur magni tempora
                 ipsum totam veritatis! Cumque deleniti nostrum qui. Eos, error! Totam eos error eum,
                 delectus non debitis odit possimus laborum deleniti ea nihil hic ducimus expedita
-                nisi eius dicta.
+                nisi eius dicta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt
+                perspiciatis molestias enim, veritatis exercitationem! Ducimus nisi eius, nesciunt
+                cumque quod possimus repellat hic veritatis doloremque iste maiores nam! Labore
+                assumenda officia fugiat nesciunt modi fugit, alias facilis tenetur suscipit vero
+                veritatis dolorum?
               </p>
               {props.isButtonShow ? (
                 <div>
